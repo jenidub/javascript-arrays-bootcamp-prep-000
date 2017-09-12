@@ -14,3 +14,8 @@ function addElementToEndOfArray(array, element) {
   var newarray = [...array, element];
   return newarray;
 }
+
+function accessElementInArray(array, index) {
+  return array[index];
+}
+
